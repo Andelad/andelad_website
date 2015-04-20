@@ -1,0 +1,2 @@
+body{background-color:red;color:#000}.header{background:blue;height:100%}section{background:#444;outline:1px red solid}.portfolio-box{position:relative;margin-right:10px;margin-bottom:10px}.portfolio-box>.overlay{display:none;position:absolute;background-color:red;width:100%;top:0;bottom:0;left:0;right:0}.portfolio-box:hover>.overlay{display:block}
+/*# sourceMappingURL=layout.css.map */
