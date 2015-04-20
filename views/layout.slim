@@ -1,0 +1,21 @@
+doctype html
+html 
+  head
+    link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/superhero/bootstrap.min.css"
+    link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    link rel="stylesheet" href="assets/stylesheets/main.css"
+  body
+    .container
+      .row
+        .col-md-1
+          == slim(:'partials/header')
+          header.header.row
+            .col-sm-4.col-md-12
+              .logo 
+                img.img-responsive src="http://placehold.it/100x100"
+            .visible-sm.col-sm-8
+              .contact-details
+        .col-md-11
+          == yield
+        == slim(:'partials/footer')
+
