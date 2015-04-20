@@ -1,6 +1,7 @@
+require 'sinatra/base'
 
-require 'sinatra'
-
-get '/' do
-  slim :index
+class AndeladWebsite < Sinatra::Base
+  get '/' do
+    slim :index
+  end
 end
